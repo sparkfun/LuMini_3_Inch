@@ -9300,6 +9300,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="95.37" y="20.75"/>
 </polygon>
 </package>
+<package name="FIDUCIAL-1X2">
+<description>&lt;h3&gt;Fiducial - Circle, 1mm&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="1" dy="1" layer="1" roundness="100" cream="no"/>
+</package>
+<package name="FIDUCIAL-MICRO">
+<description>&lt;h3&gt;Fiducial - Circle, 0.25in&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="1" x="0" y="0" dx="0.635" dy="0.635" layer="1" roundness="100" cream="no"/>
+</package>
 </packages>
 <symbols>
 <symbol name="FRAME_LEDGER">
@@ -13847,6 +13861,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="49.69" y="10.37"/>
 </polygon>
 </symbol>
+<symbol name="FIDUCIAL">
+<description>&lt;h3&gt;Fiducial&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;
+&lt;p&gt;Devices using:
+&lt;ul&gt;&lt;li&gt;FIDUCIAL&lt;/li&gt;&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.27" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="FRAME-LEDGER" prefix="FRAME">
@@ -13967,6 +13990,25 @@ layer for the logo on the board is tSilk.&lt;/p&gt;</description>
 </technologies>
 </device>
 <device name="1_INCH" package="SFE_LOGO_NAME_1">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FIDUCIAL" prefix="FD">
+<description>&lt;h3&gt;Fiducial Alignment Points&lt;/h3&gt;
+&lt;p&gt;Point-of-reference for pick-and-place machines and other optical instruments.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FIDUCIAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="1X2" package="FIDUCIAL-1X2">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="UFIDUCIAL" package="FIDUCIAL-MICRO">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -14351,20 +14393,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="H3" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
 <part name="H4" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
 <part name="GND17" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" value="4.7uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="4.7UF" device="-1206-16V-(+80/-20%)" value="DNP"/>
 <part name="GND62" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="S"/>
 <part name="LOGO2" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME" device=".1_INCH"/>
+<part name="H5" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
+<part name="H6" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
+<part name="H7" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
+<part name="H8" library="SparkFun-Hardware" deviceset="STANDOFF_ELECTRICAL" device="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS"/>
+<part name="FD1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
+<part name="FD4" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="UFIDUCIAL"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="200.66" y="264.16" size="3.81" layer="94" font="vector">LED's</text>
-<text x="180.34" y="124.46" size="3.81" layer="94" font="vector">Grounding Standoffs</text>
+<text x="200.66" y="264.16" size="3.81" layer="97" font="vector">LED's</text>
+<text x="180.34" y="124.46" size="3.81" layer="97" font="vector">Grounding Standoffs</text>
 <wire x1="0" y1="144.78" x2="431.8" y2="144.78" width="0.2032" layer="97" style="longdash"/>
 <text x="348.742" y="11.176" size="2.54" layer="97" font="vector">Andy England</text>
 <text x="419.1" y="7.62" size="2.54" layer="97" font="vector">v03</text>
+<text x="200.66" y="261.62" size="1.778" layer="97" font="vector">Vin: 3.0V-5.5V</text>
 </plain>
 <instances>
 <instance part="D1" gate="G$1" x="40.64" y="246.38"/>
@@ -14556,12 +14607,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="H2" gate="G$1" x="203.2" y="96.52" rot="R180"/>
 <instance part="H3" gate="G$1" x="203.2" y="81.28" rot="R180"/>
 <instance part="H4" gate="G$1" x="203.2" y="66.04" rot="R180"/>
-<instance part="GND17" gate="1" x="193.04" y="60.96"/>
+<instance part="GND17" gate="1" x="193.04" y="53.34"/>
 <instance part="C1" gate="G$1" x="281.94" y="91.44"/>
 <instance part="GND62" gate="1" x="281.94" y="83.82"/>
 <instance part="SUPPLY17" gate="G$1" x="281.94" y="99.06"/>
 <instance part="LOGO1" gate="G$1" x="419.1" y="45.72"/>
 <instance part="LOGO2" gate="G$1" x="330.2" y="35.56"/>
+<instance part="H5" gate="G$1" x="182.88" y="111.76"/>
+<instance part="H6" gate="G$1" x="182.88" y="93.98"/>
+<instance part="H7" gate="G$1" x="182.88" y="78.74"/>
+<instance part="H8" gate="G$1" x="182.88" y="63.5"/>
+<instance part="FD1" gate="G$1" x="414.02" y="20.32"/>
+<instance part="FD2" gate="G$1" x="416.56" y="20.32"/>
+<instance part="FD3" gate="G$1" x="419.1" y="20.32"/>
+<instance part="FD4" gate="G$1" x="421.64" y="20.32"/>
 </instances>
 <busses>
 </busses>
@@ -14936,9 +14995,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="193.04" y1="111.76" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="H4" gate="G$1" pin="P$1"/>
-<wire x1="193.04" y1="96.52" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="81.28" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="96.52" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="93.98" x2="193.04" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="81.28" x2="193.04" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="78.74" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="66.04" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="63.5" x2="193.04" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="66.04" x2="193.04" y2="66.04" width="0.1524" layer="91"/>
 <junction x="193.04" y="66.04"/>
 <pinref part="H3" gate="G$1" pin="P$1"/>
@@ -14947,6 +15009,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="H2" gate="G$1" pin="P$1"/>
 <wire x1="195.58" y1="96.52" x2="193.04" y2="96.52" width="0.1524" layer="91"/>
 <junction x="193.04" y="96.52"/>
+<pinref part="H5" gate="G$1" pin="P$1"/>
+<wire x1="193.04" y1="111.76" x2="190.5" y2="111.76" width="0.1524" layer="91"/>
+<junction x="193.04" y="111.76"/>
+<pinref part="H6" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="93.98" x2="193.04" y2="93.98" width="0.1524" layer="91"/>
+<junction x="193.04" y="93.98"/>
+<pinref part="H7" gate="G$1" pin="P$1"/>
+<wire x1="193.04" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<junction x="193.04" y="78.74"/>
+<pinref part="H8" gate="G$1" pin="P$1"/>
+<wire x1="190.5" y1="63.5" x2="193.04" y2="63.5" width="0.1524" layer="91"/>
+<junction x="193.04" y="63.5"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
