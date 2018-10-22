@@ -324,14 +324,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="Andy">
-<packages>
-<package name="DOUBLELEDPAD">
-<smd name="P$1" x="-1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
-<smd name="P$2" x="1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
-</package>
-</packages>
-</library>
 <library name="buzzard_labels (25)">
 <packages>
 <package name="5V6">
@@ -3033,6 +3025,33 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="SOLDER_PAD_2">
+<description>&lt;h3&gt;LuMini Ring Solder Pads&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count: 2&lt;/li&gt;
+&lt;li&gt;Pin pitch: .8 in&lt;/li&gt;
+&lt;li&gt;Area: .4 x 1 in.&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<smd name="P$1" x="-1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
+<smd name="P$2" x="1.016" y="0" dx="1.016" dy="2.54" layer="1" roundness="100" cream="no"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3285,8 +3304,8 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D20" library="SparkFun-LED" package="APA102-2020" value="APA1022020" x="23.68041875" y="70.47738125" rot="R204">
 <attribute name="PROD_ID" value="DIO-13883" x="37.41715" y="64.91578125" size="1.778" layer="27" rot="R204" display="off"/>
 </element>
-<element name="J1" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="73.8505" y="41.3385" rot="MR266.4"/>
-<element name="J2" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="73.9775" y="37.4142" rot="MR270"/>
+<element name="J1" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="73.8505" y="41.3385" rot="MR266.4"/>
+<element name="J2" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="73.9775" y="37.4142" rot="MR270"/>
 <element name="U$1" library="buzzard_labels (8)" package="LUMINI_3#2" value="" x="34.036" y="1.0795" rot="MR180"/>
 <element name="U$4" library="buzzard_labels (25)" package="5V6" value="" x="71.6915" y="41.529" rot="MR266.4"/>
 <element name="U$5" library="buzzard_labels (25)" package="G4" value="" x="71.501" y="43.307" rot="MR266.4"/>
@@ -3414,7 +3433,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="D60" library="SparkFun-LED" package="APA102-2020" value="APA1022020" x="73.345040625" y="34.389059375" rot="R84">
 <attribute name="PROD_ID" value="DIO-13883" x="35.38531875" y="-72.599775" size="1.778" layer="27" rot="R84" display="off"/>
 </element>
-<element name="J3" library="Andy" package="DOUBLELEDPAD" value="DOUBLE_LED_PAD" x="73.6727" y="33.2994" rot="MR97"/>
+<element name="J3" library="SparkFun-Connectors" package="SOLDER_PAD_2" value="SOLDER_PAD_2" x="73.6727" y="33.2994" rot="MR97"/>
 <element name="U$2" library="buzzard_labels (3)" package="60_APA102_LEDS0" value="" x="31.5595" y="4.0005" rot="MR180"/>
 <element name="FRAME1" library="SparkFun-Aesthetics" package="CREATIVE_COMMONS" value="FRAME-LEDGER" x="14.605" y="-8.255">
 <attribute name="DESIGNER" value="" x="14.605" y="-8.255" size="1.778" layer="27" display="off"/>
