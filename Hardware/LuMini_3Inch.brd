@@ -3420,10 +3420,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="DESIGNER" value="" x="14.605" y="-8.255" size="1.778" layer="27" display="off"/>
 <attribute name="REV" value="" x="14.605" y="-8.255" size="1.778" layer="27" display="off"/>
 </element>
-<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="67.31" y="38.1"/>
-<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="38.1" y="8.89"/>
-<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="38.1" y="67.31"/>
-<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="8.89" y="38.1"/>
+<element name="H1" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="67.31" y="38.1"/>
+<element name="H2" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="38.1" y="8.89"/>
+<element name="H3" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="38.1" y="67.31"/>
+<element name="H4" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="38.1"/>
 <element name="C1" library="SparkFun-Capacitors" package="1206" value="DNP" x="70.2945" y="26.6319" rot="MR110">
 <attribute name="PROD_ID" value="CAP-10300" x="70.2945" y="26.6319" size="1.778" layer="28" rot="MR110" display="off"/>
 </element>
@@ -3438,10 +3438,10 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <element name="U$15" library="buzzard_labels (5)" package="4011" value="" x="18.8595" y="8.3439" rot="MR210"/>
 <element name="U$16" library="buzzard_labels (5)" package="5013" value="" x="54.1528" y="6.4897" rot="MR150"/>
 <element name="U$17" library="buzzard_labels (5)" package="5514" value="" x="67.9704" y="18.9611" rot="MR120"/>
-<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="8.89" y="8.89"/>
-<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="67.31" y="8.89"/>
-<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="8.89" y="67.31"/>
-<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICALSTANDOFF-ELECTRICAL-NOTHERMALS" x="67.31" y="67.31"/>
+<element name="H5" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="8.89"/>
+<element name="H6" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="67.31" y="8.89"/>
+<element name="H7" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="8.89" y="67.31"/>
+<element name="H8" library="SparkFun-Hardware" package="STANDOFF-ELECTRICAL-NOTHERMALS" value="STANDOFF_ELECTRICAL-NOTHERMALS" x="67.31" y="67.31"/>
 <element name="FD1" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="8.382" y="12.573"/>
 <element name="FD2" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="8.382" y="12.573" rot="MR90"/>
 <element name="FD3" library="SparkFun-Aesthetics" package="FIDUCIAL-MICRO" value="FIDUCIALUFIDUCIAL" x="67.818" y="63.627"/>
@@ -3743,7 +3743,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="C1" pad="1"/>
 <wire x1="74.041" y1="30.4165" x2="73.72008125" y2="31.401634375" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$2">
+<signal name="CI">
 <contactref element="D1" pad="CKI"/>
 <contactref element="J2" pad="P$2"/>
 <wire x1="73.533" y1="37.064815625" x2="73.914" y2="36.3347" width="0.1778" layer="1"/>
@@ -3751,7 +3751,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="73.533" y1="37.25" x2="73.533" y2="37.064815625" width="0.1778" layer="1"/>
 <wire x1="73.9775" y1="36.3982" x2="73.914" y2="36.3347" width="0.1778" layer="16"/>
 </signal>
-<signal name="N$3">
+<signal name="DI">
 <contactref element="D1" pad="SDI"/>
 <contactref element="J2" pad="P$1"/>
 <wire x1="72.733" y1="37.25" x2="71.9455" y2="37.592" width="0.1778" layer="1"/>
@@ -4300,7 +4300,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <contactref element="D56" pad="CKO"/>
 <wire x1="69.2082" y1="21.117078125" x2="70.121490625" y2="22.914065625" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$122">
+<signal name="CO">
 <contactref element="D60" pad="CKO"/>
 <contactref element="J3" pad="P$2"/>
 <via x="74.622021875" y="34.244325" extent="1-16" drill="0.381"/>
@@ -4309,7 +4309,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="73.4338875" y1="35.2344" x2="73.3425" y2="34.671" width="0.1778" layer="1"/>
 <wire x1="73.3425" y1="34.671" x2="73.66" y2="34.29" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$123">
+<signal name="DO">
 <contactref element="D60" pad="SDO"/>
 <contactref element="J3" pad="P$1"/>
 <wire x1="73.54888125" y1="32.290971875" x2="71.6915" y2="33.4645" width="0.1778" layer="16"/>
