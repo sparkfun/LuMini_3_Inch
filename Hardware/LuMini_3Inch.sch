@@ -169,60 +169,61 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Size: 2.0 x 2.0 mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;Datasheet referenced for footprint:&lt;/b&gt; &lt;a href="https://cdn.sparkfun.com/assets/home_page_posts/2/3/9/8/APA102-2020_1.pdf"&gt;APA102-2020&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="VDD" x="0.85" y="-0.8" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<smd name="SDO" x="0.85" y="0.8" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<smd name="CKO" x="0.85" y="0" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<smd name="GND" x="-0.85" y="-0.8" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<smd name="CKI" x="-0.85" y="0" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<smd name="SDI" x="-0.85" y="0.8" dx="0.7" dy="0.4" layer="1" rot="R180" cream="no"/>
-<wire x1="1.5" y1="1.45" x2="-1.5" y2="1.45" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="1.45" x2="-1.5" y2="-1.45" width="0.2" layer="21"/>
+<smd name="CKI" x="-0.8" y="-0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="CKO" x="0.8" y="-0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="VDD" x="0" y="-0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="SDI" x="-0.8" y="0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="GND" x="0" y="0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<smd name="SDO" x="0.8" y="0.85" dx="0.7" dy="0.4" layer="1" rot="R90" cream="no"/>
+<wire x1="1.5" y1="1.577" x2="-1.5" y2="1.577" width="0.2" layer="21"/>
+<wire x1="-1.5" y1="1.577" x2="-1.5" y2="-1.45" width="0.2" layer="21"/>
 <wire x1="-1.5" y1="-1.45" x2="1.5" y2="-1.45" width="0.2" layer="21"/>
-<wire x1="1.5" y1="-1.45" x2="1.5" y2="1.2" width="0.2" layer="21"/>
-<wire x1="1.5" y1="1.2" x2="1.5" y2="1.45" width="0.2" layer="21"/>
-<wire x1="0.45" y1="0.15" x2="0.45" y2="-0.15" width="0.1" layer="51"/>
-<wire x1="0.45" y1="-0.15" x2="0.95" y2="-0.15" width="0.1" layer="51"/>
-<wire x1="0.95" y1="-0.15" x2="0.95" y2="0.15" width="0.1" layer="51"/>
-<wire x1="0.95" y1="0.15" x2="0.45" y2="0.15" width="0.1" layer="51"/>
-<wire x1="0.45" y1="-0.65" x2="0.45" y2="-0.95" width="0.1" layer="51"/>
-<wire x1="0.45" y1="-0.95" x2="0.95" y2="-0.95" width="0.1" layer="51"/>
-<wire x1="0.95" y1="-0.95" x2="0.95" y2="-0.65" width="0.1" layer="51"/>
-<wire x1="0.95" y1="-0.65" x2="0.45" y2="-0.65" width="0.1" layer="51"/>
-<wire x1="0.45" y1="0.65" x2="0.95" y2="0.65" width="0.1" layer="51"/>
-<wire x1="0.95" y1="0.65" x2="0.95" y2="0.95" width="0.1" layer="51"/>
-<wire x1="0.95" y1="0.95" x2="0.45" y2="0.95" width="0.1" layer="51"/>
-<wire x1="0.45" y1="0.95" x2="0.45" y2="0.65" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="-0.65" x2="-0.95" y2="-0.65" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="-0.65" x2="-0.95" y2="-0.95" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="-0.95" x2="-0.45" y2="-0.95" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="-0.95" x2="-0.45" y2="-0.65" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="-0.15" x2="-0.95" y2="-0.15" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="-0.15" x2="-0.95" y2="0.15" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="0.15" x2="-0.45" y2="0.15" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="0.15" x2="-0.45" y2="-0.15" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="0.65" x2="-0.95" y2="0.65" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="0.65" x2="-0.95" y2="0.95" width="0.1" layer="51"/>
-<wire x1="-0.95" y1="0.95" x2="-0.45" y2="0.95" width="0.1" layer="51"/>
-<wire x1="-0.45" y1="0.95" x2="-0.45" y2="0.65" width="0.1" layer="51"/>
+<wire x1="1.5" y1="-1.45" x2="1.5" y2="1.327" width="0.2" layer="21"/>
+<wire x1="1.5" y1="1.327" x2="1.5" y2="1.577" width="0.2" layer="21"/>
+<wire x1="-0.15" y1="0.45" x2="0.15" y2="0.45" width="0.1" layer="51"/>
+<wire x1="0.15" y1="0.45" x2="0.15" y2="0.95" width="0.1" layer="51"/>
+<wire x1="0.15" y1="0.95" x2="-0.15" y2="0.95" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="0.95" x2="-0.15" y2="0.45" width="0.1" layer="51"/>
+<wire x1="0.65" y1="0.45" x2="0.95" y2="0.45" width="0.1" layer="51"/>
+<wire x1="0.95" y1="0.45" x2="0.95" y2="0.95" width="0.1" layer="51"/>
+<wire x1="0.95" y1="0.95" x2="0.65" y2="0.95" width="0.1" layer="51"/>
+<wire x1="0.65" y1="0.95" x2="0.65" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.45" x2="-0.65" y2="0.95" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="0.95" x2="-0.95" y2="0.95" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="0.95" x2="-0.95" y2="0.45" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="0.45" x2="-0.65" y2="0.45" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-0.45" x2="0.65" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="0.65" y1="-0.95" x2="0.95" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="0.95" y1="-0.95" x2="0.95" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="0.95" y1="-0.45" x2="0.65" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-0.45" x2="0.15" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="0.15" y1="-0.95" x2="-0.15" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="-0.95" x2="-0.15" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="-0.15" y1="-0.45" x2="0.15" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-0.45" x2="-0.65" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="-0.65" y1="-0.95" x2="-0.95" y2="-0.95" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-0.95" x2="-0.95" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="-0.95" y1="-0.45" x2="-0.65" y2="-0.45" width="0.1" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
 <wire x1="1" y1="-1" x2="-1" y2="-1" width="0.1" layer="51"/>
 <wire x1="-1" y1="-1" x2="-1" y2="1" width="0.1" layer="51"/>
 <wire x1="-1" y1="1" x2="1" y2="1" width="0.1" layer="51"/>
-<wire x1="1" y1="1" x2="1" y2="-1" width="0.1" layer="51"/>
 <text x="0" y="1.632" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.268" size="0.6096" layer="27" font="vector" ratio="20" rot="R180" align="top-center">&gt;VALUE</text>
-<wire x1="1.4" y1="1.3" x2="0.5" y2="1.3" width="0.127" layer="21"/>
-<wire x1="0.5" y1="1.3" x2="0.5" y2="1.4" width="0.127" layer="21"/>
-<wire x1="0.5" y1="1.4" x2="1.5" y2="1.4" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.4" x2="1.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="1.5" y1="1.2" x2="0.5" y2="1.2" width="0.127" layer="21"/>
-<wire x1="0.5" y1="1.2" x2="0.5" y2="1.3" width="0.127" layer="21"/>
-<rectangle x1="-1" y1="-1.1" x2="-0.7" y2="-0.5" layer="31" rot="R90"/>
-<rectangle x1="0.7" y1="-1.1" x2="1" y2="-0.5" layer="31" rot="R90"/>
-<rectangle x1="0.7" y1="-0.3" x2="1" y2="0.3" layer="31" rot="R90"/>
-<rectangle x1="0.7" y1="0.5" x2="1" y2="1.1" layer="31" rot="R90"/>
-<rectangle x1="-1" y1="0.5" x2="-0.7" y2="1.1" layer="31" rot="R90"/>
-<rectangle x1="-1" y1="-0.3" x2="-0.7" y2="0.3" layer="31" rot="R90"/>
+<wire x1="1.4" y1="1.427" x2="0.5" y2="1.427" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.427" x2="0.5" y2="1.527" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.527" x2="1.5" y2="1.527" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.527" x2="1.5" y2="1.327" width="0.127" layer="21"/>
+<wire x1="1.5" y1="1.327" x2="0.5" y2="1.327" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1.327" x2="0.5" y2="1.427" width="0.127" layer="21"/>
+<rectangle x1="-0.95" y1="0.55" x2="-0.65" y2="1.15" layer="31"/>
+<rectangle x1="-0.95" y1="-1.15" x2="-0.65" y2="-0.55" layer="31"/>
+<rectangle x1="-0.15" y1="-1.15" x2="0.15" y2="-0.55" layer="31"/>
+<rectangle x1="0.65" y1="-1.15" x2="0.95" y2="-0.55" layer="31"/>
+<rectangle x1="0.65" y1="0.55" x2="0.95" y2="1.15" layer="31"/>
+<rectangle x1="-0.15" y1="0.55" x2="0.15" y2="1.15" layer="31"/>
 <rectangle x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" layer="39"/>
+<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0" layer="51"/>
 </package>
 <package name="APA102-5050">
 <description>&lt;h3&gt;APA102C&lt;/h3&gt;
@@ -348,7 +349,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <gate name="G$1" symbol="APA102" x="0" y="0"/>
 </gates>
 <devices>
-<device name="2020" package="APA102-2020">
+<device name="-2020" package="APA102-2020">
 <connects>
 <connect gate="G$1" pin="CI" pad="CKI"/>
 <connect gate="G$1" pin="CO" pad="CKO"/>
@@ -363,7 +364,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </technology>
 </technologies>
 </device>
-<device name="5050" package="APA102-5050">
+<device name="-5050" package="APA102-5050">
 <connects>
 <connect gate="G$1" pin="CI" pad="P2"/>
 <connect gate="G$1" pin="CO" pad="P5"/>
@@ -14224,186 +14225,186 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="D1" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D1" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D2" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D3" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D3" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D4" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D5" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D5" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND5" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D6" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D6" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D7" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D7" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D8" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D8" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D9" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D9" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D10" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D10" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY10" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D11" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D11" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D12" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D12" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D13" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D13" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY13" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D14" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D14" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND14" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D15" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D15" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D16" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D16" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D17" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D17" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY18" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D18" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D18" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D19" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D19" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D20" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D20" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="SOLDER_PAD_2" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="SOLDER_PAD_2" device=""/>
-<part name="D21" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D21" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D22" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D22" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D23" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D23" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D24" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D24" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D25" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D25" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D26" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D26" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D27" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D27" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND28" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D28" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D28" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY29" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND29" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D29" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D29" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY30" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND30" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D30" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D30" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY31" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D31" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D31" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY32" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D32" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D32" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY33" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND33" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D33" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D33" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY34" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND34" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D34" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D34" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY35" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND35" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D35" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D35" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY36" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND36" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D36" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D36" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY37" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D37" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D37" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY38" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D38" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D38" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY39" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND39" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D39" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D39" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY40" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND40" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D40" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D40" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY41" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND41" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D41" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D41" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY42" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND42" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D42" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D42" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY43" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D43" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D43" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY44" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND44" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D44" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D44" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY45" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND45" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D45" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D45" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY46" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND46" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D46" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D46" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY47" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND47" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D47" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D47" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY48" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND48" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D48" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D48" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY49" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND49" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D49" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D49" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY50" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND50" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D50" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D50" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY51" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND51" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D51" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D51" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY52" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND52" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D52" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D52" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY53" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND53" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D53" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D53" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY54" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND54" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D54" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D54" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY55" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND55" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D55" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D55" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY56" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND56" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D56" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D56" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY57" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND57" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D57" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D57" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY58" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND58" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D58" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D58" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY59" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND59" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D59" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D59" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY60" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND60" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="D60" library="SparkFun-LED" deviceset="APA102" device="2020"/>
+<part name="D60" library="SparkFun-LED" deviceset="APA102" device="-2020"/>
 <part name="SUPPLY61" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND61" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="J3" library="SparkFun-Connectors" deviceset="SOLDER_PAD_2" device=""/>
