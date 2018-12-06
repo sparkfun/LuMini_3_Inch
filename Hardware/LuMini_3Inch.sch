@@ -14437,7 +14437,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="218.44" y="114.3" size="3.81" layer="97" font="vector">Grounding Standoffs</text>
 <wire x1="0" y1="144.78" x2="149.86" y2="144.78" width="0.2032" layer="97" style="longdash"/>
 <text x="348.742" y="11.176" size="2.54" layer="94" font="vector">Andy England</text>
-<text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v03</text>
+<text x="419.1" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="200.66" y="261.62" size="1.778" layer="97" font="vector">Vin: 3.0V-5.5V</text>
 <wire x1="149.86" y1="144.78" x2="330.2" y2="144.78" width="0.2032" layer="97" style="longdash"/>
 <wire x1="330.2" y1="144.78" x2="431.8" y2="144.78" width="0.2032" layer="97" style="longdash"/>

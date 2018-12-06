@@ -147,7 +147,7 @@
 <board>
 <plain>
 <circle x="38.1" y="38.1" radius="38.1" width="0.2032" layer="21"/>
-<text x="5.08" y="40.005" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v03</text>
+<text x="5.08" y="40.005" size="1.778" layer="16" font="vector" ratio="15" rot="SMR270">v10</text>
 <text x="41.402" y="-8.3185" size="1.778" layer="51" font="vector">Andy England</text>
 <wire x1="5.588" y1="41.91" x2="8.89" y2="41.91" width="0.2032" layer="20"/>
 <wire x1="8.89" y1="41.91" x2="12.7" y2="38.1" width="0.2032" layer="20" curve="-90"/>
