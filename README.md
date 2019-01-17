@@ -15,6 +15,8 @@ Repository Contents
 
 Documentation
 --------------
+* **[Installing an Arduino Library Guide](https://learn.sparkfun.com/tutorials/installing-an-arduino-library)** - Basic information on how to install an Arduino library.
+* **[Library Repository](https://github.com/FastLED/FastLED)** - Arduino library for the APA102.
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/lumini-ring-hookup-guide)** - Basic hookup guide for the LuMini Rings.
 
 Product Versions
